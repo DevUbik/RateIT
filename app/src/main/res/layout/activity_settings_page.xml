@@ -8,13 +8,13 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
         android:text="Settings"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="41dp" />
+        tools:layout_editor_absoluteY="27dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
