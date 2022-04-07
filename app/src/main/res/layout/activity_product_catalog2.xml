@@ -139,7 +139,7 @@
         android:layout_width="171dp"
         android:layout_height="36dp"
         android:layout_marginBottom="28dp"
-        android:text="< back to menu"
+        android:text="back to menu"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,6 +149,7 @@
         app:layout_constraintVertical_bias="0.054" />
 
     <SearchView
+        android:id="@+id/search_bar"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="213dp"
