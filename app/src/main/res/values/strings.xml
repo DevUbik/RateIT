@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">RateIT</string>
+    <string name="title_activity_insert_anew_product_page">InsertANewProductPage</string>
     <string name="title_activity_login_page">LoginPage</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +10,9 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="InserProductPage">Spinner</string>
+    <string-array name="food">
+        <item>Fast-food</item>
+        <item>Desert</item>
+    </string-array>
 </resources>

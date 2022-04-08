@@ -20,6 +20,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity>
             android:name=".SettingsPage"
             android:exported="false" />
         <activity
@@ -36,6 +40,9 @@
         <activity
               android:name=".ajutorSelectie"
               android:exported="false" />
+         <activity
+            android:name=".InsertProductPage"
+            android:exported="true"/>  
     </application>
 
 </manifest>
