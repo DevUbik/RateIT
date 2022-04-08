@@ -6,6 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".ProductCatalog">
 
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="145dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="213dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/button_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="171dp"
+        android:layout_height="36dp"
+        android:text="back to menu"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="169dp"
+        android:layout_height="61dp"
+        android:text="Add a new category"
+        android:textSize="12sp"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="170dp"
+        android:layout_height="27dp"
+        android:text="Choose the category: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -122,44 +175,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
         app:srcCompat="@android:drawable/divider_horizontal_bright" />
 
-    <Button
-        android:id="@+id/button_back"
-        android:layout_width="171dp"
-        android:layout_height="36dp"
-        android:text="back to menu"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
 
-    <SearchView
-        android:id="@+id/search_bar"
-        android:layout_width="145dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="213dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toStartOf="@+id/button_back"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
 
-    <TextView
-        android:id="@+id/category"
-        android:layout_width="170dp"
-        android:layout_height="27dp"
-        android:text="Choose the category: "
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -173,19 +190,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
         app:srcCompat="@android:drawable/divider_horizontal_bright" />
 
-    <Button
-        android:id="@+id/button_add"
-        android:layout_width="169dp"
-        android:layout_height="61dp"
-        android:text="Add a new category"
-        android:textSize="12sp"
-        app:icon="@android:drawable/ic_input_add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+
 
     <TextView
         android:id="@+id/textView4"
@@ -198,5 +203,20 @@
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <ScrollView
+        android:layout_width="356dp"
+        android:layout_height="597dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
