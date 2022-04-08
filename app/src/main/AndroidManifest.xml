@@ -12,12 +12,18 @@
         <activity
             android:name=".LoginPage"
             android:exported="true">
-            <intent-filter>
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SettingsPage"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryProductsPage"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true" >
