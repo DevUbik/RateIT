@@ -13,6 +13,9 @@
             android:name=".SettingsPage"
             android:exported="false" />
         <activity
+            android:name=".CategoryProductsPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
