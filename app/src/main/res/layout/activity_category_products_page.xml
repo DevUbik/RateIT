@@ -148,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.537"
         app:srcCompat="@drawable/istockphoto_1164017231_170667a" />
 
     <ImageView
