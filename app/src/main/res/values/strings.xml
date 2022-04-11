@@ -14,6 +14,8 @@
     <string name="back">Back</string>
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
+    <string name="button_add">Add a new category</string>
+    <string name="go_to_product_catalog">Product Catalog</string>
     <string-array name="food">
         <item>Fast-food</item>
         <item>Desert</item>
