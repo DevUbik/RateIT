@@ -22,7 +22,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/istockphoto_1164017231_170667a" />
+        app:srcCompat="@drawable/istockphoto_1164017231_170667a"
+        app:background="@drawable/image_border"/>
 
     <TextView
         android:id="@+id/textView14"
@@ -33,6 +34,7 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="112dp"
         android:text="Fashion"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +50,7 @@
         android:layout_marginEnd="207dp"
         android:layout_marginBottom="112dp"
         android:text="Electronics"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +66,7 @@
         android:layout_marginEnd="314dp"
         android:layout_marginBottom="112dp"
         android:text="Education"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,6 +82,7 @@
         android:layout_marginEnd="207dp"
         android:layout_marginBottom="256dp"
         android:text="Cars"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,6 +98,7 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="256dp"
         android:text="Drinks"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,17 +106,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/category_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="638dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="7dp"
         android:fontFamily="sans-serif-medium"
         android:text="Category"
+        android:textColor="#131313"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/searchView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -130,10 +137,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fav_icon" />
+        app:srcCompat="@drawable/fav_icon"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/art_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="154dp"
@@ -149,10 +157,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.537"
-        app:srcCompat="@drawable/istockphoto_1164017231_170667a" />
+        app:srcCompat="@drawable/istockphoto_1164017231_170667a"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/beauty_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="270dp"
@@ -163,7 +172,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/beauty_ic" />
+        app:srcCompat="@drawable/beauty_ic"
+        app:background="@drawable/image_border"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -174,6 +184,7 @@
         android:layout_marginEnd="314dp"
         android:layout_marginBottom="413dp"
         android:text="Favourites"
+        android:textColor="#131313"
         android:textSize="16sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -193,6 +204,7 @@
         android:layout_marginEnd="207dp"
         android:layout_marginBottom="413dp"
         android:text="Art"
+        android:textColor="#0C0C0C"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -208,6 +220,7 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="413dp"
         android:text="Beauty"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -223,6 +236,7 @@
         android:layout_marginEnd="314dp"
         android:layout_marginBottom="256dp"
         android:text="Books"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -231,36 +245,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
         android:layout_width="241dp"
         android:layout_height="45dp"
         android:layout_marginStart="29dp"
-        android:layout_marginTop="103dp"
+        android:layout_marginTop="128dp"
         android:layout_marginEnd="141dp"
-        android:layout_marginBottom="583dp"
+        android:layout_marginBottom="37dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </SearchView>
-
-    <androidx.viewpager2.widget.ViewPager2
-        android:layout_width="211dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="661dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.SearchView>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/profile_icon"
         android:layout_width="109dp"
         android:layout_height="98dp"
         android:layout_marginStart="293dp"
@@ -271,10 +274,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        app:background="@drawable/image_border"/>
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="314dp"
@@ -309,21 +313,23 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/fav_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="210dp"
         android:layout_marginEnd="296dp"
         android:layout_marginBottom="451dp"
+        android:background="#EA4C4C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fav_icon" />
+        app:srcCompat="@drawable/fav_icon"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/books_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="35dp"
@@ -334,10 +340,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/books_icon" />
+        app:srcCompat="@drawable/books_icon"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/cars_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="154dp"
@@ -348,10 +355,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_44465" />
+        app:srcCompat="@drawable/_44465"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/drinks_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="270dp"
@@ -362,10 +370,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/drinkk" />
+        app:srcCompat="@drawable/drinkk"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/education_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="35dp"
@@ -376,10 +385,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eduk" />
+        app:srcCompat="@drawable/eduk"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/electronics_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="154dp"
@@ -390,10 +400,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/electr" />
+        app:srcCompat="@drawable/electr"
+        app:background="@drawable/image_border"/>
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/fashion_icon"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:layout_marginStart="270dp"
@@ -404,8 +415,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dress" />
+        app:srcCompat="@drawable/dress"
+        app:background="@drawable/image_border"/>
 
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#98B8EC"
+        android:text="@string/back"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toTopOf="@+id/category_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:onClick="onClickBackButtonC" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

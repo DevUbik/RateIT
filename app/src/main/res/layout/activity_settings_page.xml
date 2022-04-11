@@ -7,7 +7,7 @@
     tools:context=".SettingsPage">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/category_text"
         android:layout_width="84dp"
         android:layout_height="37dp"
         android:text="Settings"
@@ -279,7 +279,7 @@
         tools:layout_editor_absoluteX="32dp" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Accessibility"
