@@ -13,6 +13,7 @@
     <string name="InserProductPage">Spinner</string>
     <string name="back">Back</string>
     <string name="login">Login</string>
+    <string name="skip">Skip this step</string>
     <string name="create_account">Create Account</string>
     <string name="settings">Settings</string>
     <string name="account">Account</string>

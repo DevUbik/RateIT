@@ -14,6 +14,17 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
     }
 
+    public void OnAjutorClick(View v)
+    {
+        Intent i = new Intent(this, ajutorSelectie.class);
+        startActivity(i);
+    }
+    public void OnLogOutClick(View v)
+    {
+        Intent i = new Intent(this, LoginPage.class);
+        startActivity(i);
+    }
+
     public void OnSettingsButtonClick(View v)
     {
         Intent i = new Intent(this, SettingsPage.class);
