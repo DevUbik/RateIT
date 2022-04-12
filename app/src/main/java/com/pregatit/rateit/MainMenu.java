@@ -24,4 +24,10 @@ public class MainMenu extends AppCompatActivity {
         Intent i = new Intent(this, LoginPage.class);
         startActivity(i);
     }
+
+    public void OnSettingsButtonClick(View v)
+    {
+        Intent i = new Intent(this, SettingsPage.class);
+        startActivity(i);
+    }
 }

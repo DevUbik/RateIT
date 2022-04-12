@@ -16,11 +16,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword2"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2" />
 
+
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
+        android:layout_marginTop="176dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,6 +99,7 @@
         android:text="Password"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword" />
+
 
     <CheckBox
         android:id="@+id/checkBox"
