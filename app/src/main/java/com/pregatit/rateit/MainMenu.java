@@ -14,6 +14,12 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
     }
 
+    public void onProductCatalogClick(View v){
+        Intent i = new Intent(this, ProductCatalog.class);
+        startActivity(i);
+    }  
+
+
     public void onInsertProductClick(View v) {
         Intent i = new Intent(this, InsertProductPage.class);
         startActivity(i);
