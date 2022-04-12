@@ -10,7 +10,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="InserProductPage">Spinner</string>
+    <string name="InsertProductPage">Spinner</string>
     <string name="back">Back</string>
     <string name="login">Login</string>
     <string name="skip">Skip this step</string>
@@ -31,6 +31,7 @@
     <string name="accessibility">Accessibility</string>
     <string name="advanced">Advanced</string>
     <string-array name="food">
+        <item>Categories</item>
         <item>Fast-food</item>
         <item>Desert</item>
     </string-array>
