@@ -7,22 +7,126 @@
     tools:context=".InsertProductPage">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="-1dp">
-
+        android:layout_width="401dp"
+        android:layout_height="721dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="391dp"
+            android:layout_height="853dp"
+            android:clickable="false"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="-2dp">
 
+
+            <TextView
+                android:id="@+id/textView_OverallRating2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Price"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton16"
+                app:layout_constraintStart_toEndOf="@+id/floatingActionButton16"
+                app:layout_constraintTop_toTopOf="@+id/floatingActionButton16"
+                app:layout_constraintVertical_bias="0.538" />
+
+            <TextView
+                android:id="@+id/textView_OverallRating3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Taste"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton3"
+                app:layout_constraintEnd_toEndOf="@+id/textView_OverallRating2"
+                app:layout_constraintStart_toEndOf="@+id/floatingActionButton3"
+                app:layout_constraintStart_toStartOf="@+id/textView_OverallRating2"
+                app:layout_constraintTop_toTopOf="@+id/floatingActionButton3"
+                app:layout_constraintVertical_bias="0.423" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_OverallRating2"
+                app:layout_constraintStart_toEndOf="@+id/textView_OverallRating2"
+                app:layout_constraintTop_toTopOf="@+id/textView_OverallRating2"
+                app:layout_constraintVertical_bias="0.518" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_OverallRating3"
+                app:layout_constraintStart_toEndOf="@+id/textView_OverallRating3"
+                app:layout_constraintTop_toTopOf="@+id/textView_OverallRating3"
+                app:layout_constraintVertical_bias="0.444" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toTopOf="@+id/floatingActionButton4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/floatingActionButton16"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toTopOf="@+id/floatingActionButton17"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/floatingActionButton3"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_OverallRating4"
+                app:layout_constraintStart_toEndOf="@+id/textView_OverallRating4"
+                app:layout_constraintTop_toTopOf="@+id/textView_OverallRating4"
+                app:layout_constraintVertical_bias="0.406" />
+
+            <TextView
+                android:id="@+id/textView_OverallRating4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Calories"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton4"
+                app:layout_constraintEnd_toEndOf="@+id/textView_OverallRating3"
+                app:layout_constraintHorizontal_bias="0.814"
+                app:layout_constraintStart_toEndOf="@+id/floatingActionButton4"
+                app:layout_constraintStart_toStartOf="@+id/textView_OverallRating3"
+                app:layout_constraintTop_toTopOf="@+id/floatingActionButton4"
+                app:layout_constraintVertical_bias="0.419" />
 
             <Button
                 android:id="@+id/button35"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="748dp"
+                android:layout_marginTop="828dp"
                 android:text="Save as draft"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -33,51 +137,27 @@
                 android:id="@+id/button37"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="748dp"
+                android:layout_marginTop="828dp"
                 android:text="Submit"
                 app:layout_constraintEnd_toStartOf="@+id/button36"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView_OverallRating14"
+            <Button
+                android:id="@+id/button_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
-                android:text="Price"
-                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:onClick="onBackClick"
+                android:text="@string/back"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.252"
+                app:layout_constraintHorizontal_bias="0.049"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBox_DidyouBuyIt" />
-
-            <TextView
-                android:id="@+id/textView_OverallRating12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="188dp"
-                android:text="Calories"
-                android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.234"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBox_DidyouBuyIt" />
-
-            <TextView
-                android:id="@+id/textView_OverallRating11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="112dp"
-                android:text="Taste"
-                android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.238"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/checkBox_DidyouBuyIt" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <RatingBar
-                android:id="@+id/ratingBar"
+                android:id="@+id/ratingBar_overall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -86,53 +166,28 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView_OverallRating" />
 
-            <RatingBar
-                android:id="@+id/ratingBar14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="368dp"
-                app:layout_constraintEnd_toEndOf="@+id/ratingBar16"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <RatingBar
-                android:id="@+id/ratingBar15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="524dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <RatingBar
-                android:id="@+id/ratingBar16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="444dp"
-                app:layout_constraintEnd_toEndOf="@+id/ratingBar15"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <TextView
                 android:id="@+id/textView_OverallRating"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="72dp"
                 android:text="Overall rating"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputEditText"
+                android:id="@+id/textInputEditText_nameOfTheProduct"
                 android:layout_width="301dp"
                 android:layout_height="46dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="36dp"
                 android:hint="Name of the product"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.372"
+                app:layout_constraintHorizontal_bias="0.362"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar_overall" />
 
             <Spinner
                 android:id="@+id/spinner_Categories"
@@ -144,7 +199,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textInputEditText" />
+                app:layout_constraintTop_toBottomOf="@+id/textInputEditText_nameOfTheProduct" />
 
             <CheckBox
                 android:id="@+id/checkBox_DidyouBuyIt"
@@ -161,18 +216,20 @@
                 android:id="@+id/textView_OverallRating13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="612dp"
-                android:layout_marginEnd="36dp"
+                android:layout_marginStart="20dp"
                 android:text="Add another descriptor"
                 android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton17"
+                app:layout_constraintStart_toEndOf="@+id/floatingActionButton17"
+                app:layout_constraintTop_toTopOf="@+id/floatingActionButton17"
+                app:layout_constraintVertical_bias="0.458" />
 
             <Button
                 android:id="@+id/button36"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="748dp"
+                android:layout_marginTop="828dp"
+                android:onClick="onBackClick"
                 android:text="Cancel"
                 app:layout_constraintEnd_toStartOf="@+id/button35"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -180,53 +237,61 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="436dp"
-                android:clickable="true"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.045"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@android:drawable/ic_delete" />
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="356dp"
+                android:layout_marginStart="16dp"
                 android:clickable="true"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintBottom_toTopOf="@+id/floatingActionButton3"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox_DidyouBuyIt"
                 app:srcCompat="@android:drawable/ic_delete" />
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton15"
+            <TextView
+                android:id="@+id/textView_photos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="512dp"
-                android:clickable="true"
+                android:layout_marginTop="684dp"
+                android:text="Can you provide us some photos?"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintHorizontal_bias="0.423"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@android:drawable/ic_delete" />
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="24dp"
+                android:clickable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_photos"
+                app:srcCompat="@android:drawable/ic_input_add" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="600dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="608dp"
                 android:clickable="true"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.152"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@android:drawable/ic_input_add" />
 
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="64dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="25dp"
+                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton"
+                app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
+                app:layout_constraintTop_toTopOf="@+id/floatingActionButton"
+                app:srcCompat="@drawable/drinkk" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
