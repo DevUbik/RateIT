@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ajutorSelectie extends AppCompatActivity {
+public class SelectionHelpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +16,12 @@ public class ajutorSelectie extends AppCompatActivity {
 
     public void OnSkipClick(View v)
     {
-        Intent i=new Intent(this,MainMenu.class);
+        Intent i=new Intent(this, MainMenuActivity.class);
         startActivity(i);
     }
     public void OnBackClick(View v)
     {
-        Intent i=new Intent(this,MainActivity.class);
+        Intent i=new Intent(this, CreateAccountActivity.class);
         startActivity(i);
     }
 }

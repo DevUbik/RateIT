@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CreateAccountActivity">
 
     <TextView
         android:id="@+id/textView3"
@@ -21,8 +21,6 @@
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
-        android:layout_marginTop="176dp"
         android:ems="10"
         android:hint="repeat the password"
         android:inputType="textPassword"
@@ -47,12 +45,12 @@
         android:id="@+id/createaccount2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="368dp"
+        android:layout_marginTop="476dp"
         android:onClick="OnBackClick"
         android:text="@string/back"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
@@ -73,7 +71,7 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="132dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
@@ -83,12 +81,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="172dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="116dp"
         android:text="Email"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress" />
@@ -97,13 +96,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="144dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="68dp"
         android:layout_weight="1"
         android:text="Password"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword" />
-
 
     <CheckBox
         android:id="@+id/checkBox"
