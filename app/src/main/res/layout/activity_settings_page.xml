@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsPage">
+    tools:context=".SettingsPageActivity">
 
     <TextView
         android:id="@+id/category_text"
@@ -308,7 +308,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/remeber_me_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="256dp"

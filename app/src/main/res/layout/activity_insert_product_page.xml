@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InsertProductPage">
+    tools:context=".InsertProductActivity">
 
     <ScrollView
         android:layout_width="401dp"
@@ -260,12 +260,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton"
+                android:id="@+id/take_a_photo_product"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="24dp"
                 android:clickable="true"
+                android:onClick="onPhoto"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView_photos"
                 app:srcCompat="@android:drawable/ic_input_add" />
@@ -286,9 +287,9 @@
                 android:layout_width="64dp"
                 android:layout_height="69dp"
                 android:layout_marginStart="25dp"
-                app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton"
-                app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
-                app:layout_constraintTop_toTopOf="@+id/floatingActionButton"
+                app:layout_constraintBottom_toBottomOf="@+id/take_a_photo_product"
+                app:layout_constraintStart_toEndOf="@+id/take_a_photo_product"
+                app:layout_constraintTop_toTopOf="@+id/take_a_photo_product"
                 app:srcCompat="@drawable/drinkk" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,38 +10,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RateIT">
         <activity
-            android:name=".LoginPage"
-            android:exported="true" />
-
-        <activity
-            android:name=".SettingsPage"
-            android:exported="false" />
-        <activity
-            android:name=".CategoryProductsPage"
-            android:exported="false"
-            />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
-        <activity
-            android:name=".ProductCatalog"
-            android:exported="true"></activity>
-        <activity
-            android:name=".ajutorSelectie"
-            android:exported="false" />
-        <activity
-            android:name=".InsertProductPage"
-            android:exported="true"></activity>
-        <activity
-            android:name=".MainMenu"
-            android:exported="true">
+            android:name=".LoginPageActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RateIT">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        android:theme="@style/Theme.RateIT" >
+
+        <activity
+            android:name=".SettingsPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProductCatalogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectionHelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true" />
     </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
 </manifest>
