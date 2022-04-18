@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class SettingsPageActivity extends AppCompatActivity {
 
@@ -12,6 +14,22 @@ public class SettingsPageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings_page);
+
+        TextView editProfile = (TextView) findViewById(R.id.edit_profileText);
+        editProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(view.getContext(), "Edit Profile",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        TextView connectedAccounts = (TextView) findViewById(R.id.connected_accountsText);
+        connectedAccounts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(view.getContext(), "Connected Accounts",Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     public void OnImageButtonClick(View v)
