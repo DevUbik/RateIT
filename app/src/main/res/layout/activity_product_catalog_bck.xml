@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintTop_toBottomOf="@+id/categoryList"
         app:layout_constraintVertical_bias="1.0" />
 
 
@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
-        android:id="@+id/scrollView3"
+        android:id="@+id/categoryList"
         android:layout_width="364dp"
         android:layout_height="505dp"
         android:fillViewport="true"
