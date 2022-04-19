@@ -227,12 +227,13 @@
                 android:background="?android:attr/listDivider" />
 
             <Switch
-                android:id="@+id/soundsText"
+                android:id="@+id/soundSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:paddingStart="20sp"
+                android:soundEffectsEnabled="true"
                 android:text="@string/sound"
                 android:textAlignment="gravity"
                 android:textColor="#000000"
