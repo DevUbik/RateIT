@@ -87,4 +87,12 @@ public class ProductCatalogActivity extends AppCompatActivity {
         DbHelper db = new DbHelper(this);
 
     }
+
+    public void onAddNewCategoryClick(View v){
+        Intent i = new Intent(this, AddCategoryPage.class);
+        startActivity(i);
+
+       // DbHelper db = new DbHelper(this);
+
+    }
 }
