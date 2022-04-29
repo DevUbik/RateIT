@@ -32,6 +32,7 @@
     <string name="activity">Activity</string>
     <string name="accessibility">Accessibility</string>
     <string name="advanced">Advanced</string>
+    <string name="AddCategoryButton">Add Category</string>
     <string-array name="food">
         <item>Categories</item>
         <item>Fast-food</item>
