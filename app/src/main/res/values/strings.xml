@@ -32,11 +32,34 @@
     <string name="activity">Activity</string>
     <string name="accessibility">Accessibility</string>
     <string name="advanced">Advanced</string>
+    <string name="history">History</string>
+    <string name="help_support"><![CDATA[Help & Support]]></string>
+    <string name="delete_account">Delete Account</string>
+    <string name="about">About</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="feedback_contact_us">Feedback / Contact us</string>
+    <string name="rules_community_guidelines"><![CDATA[Rules & Community Guidelines]]></string>
+    <string name="backup">Backup</string>
+    <string name="faq">FAQ</string>
+    <string name="english">English</string>
+    <string name="light">Light</string>
     <string name="AddCategoryButton">Add Category</string>
     <string-array name="food">
         <item>Categories</item>
         <item>Fast-food</item>
         <item>Desert</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>française</item>
+        <item>română</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Default</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
