@@ -39,4 +39,23 @@
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sea_food">Sea Food</string>
+    <string name="prepared_meals">Prepared Meals</string>
+    <string name="sweets">Sweets</string>
+    <string name="snacks">Snacks</string>
+    <string name="backery">Backery</string>
+    <string name="category">Category</string>
+    <string name="favourites">Favourites</string>
+    <string name="meat">Meat</string>
+    <string name="dairy">Dairy</string>
+    <string name="juice">Juice</string>
+    <string name="username">username</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="profile">\@string/profile</string>
+    <string name="bakery">\@string/bakery</string>
+    <string name="meals">\@string/meals</string>
 </resources>
