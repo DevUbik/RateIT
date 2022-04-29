@@ -49,14 +49,14 @@
             android:layout_height="16dp"
             android:text="Chose what you would like to see Rated(it)"
             android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintBottom_toTopOf="@+id/categoryList"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.826" />
 
         <ScrollView
-            android:id="@+id/scrollView2"
+            android:id="@+id/categoryList"
             android:layout_width="350dp"
             android:layout_height="228dp"
             app:layout_constraintBottom_toBottomOf="parent"

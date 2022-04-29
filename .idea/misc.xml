@@ -4,12 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.5" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_ajutor_selectie_bck.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main.xml" value="0.4765625" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog2.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog_bck.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main.xml" value="0.4765625" />
         <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.21333903377511756" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.3009833262077811" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.21333903377511756" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.21333903377511756" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.21333903377511756" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog2.xml" value="0.21333903377511756" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.3009833262077811" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.21333903377511756" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.21333903377511756" />
