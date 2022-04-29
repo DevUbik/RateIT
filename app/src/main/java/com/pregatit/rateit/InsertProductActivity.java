@@ -6,9 +6,12 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import com.pregatit.rateit.utils.Singleton;
 
 public class InsertProductActivity extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -23,6 +26,8 @@ public class InsertProductActivity extends AppCompatActivity {
                 R.array.food, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+        Log.d(Singleton.APP_NAME,Singleton.getTest());
     }
 
     public void onBackClick(View v) {

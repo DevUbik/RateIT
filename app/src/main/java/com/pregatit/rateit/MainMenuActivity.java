@@ -24,9 +24,9 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivity(i);
     }  
 
-    public void onClickbuttonCategory(View view)
+    public void onClickCategory(View v)
     {
-        Intent i = new Intent(MainMenuActivity.this, CategoryProductsActivity.class);
+        Intent i = new Intent(this, CategoryProductsActivity.class);
         startActivity(i);
     }
 

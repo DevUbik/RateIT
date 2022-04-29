@@ -13,9 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RateIT">
-        <activity
-            android:name=".SettingsPageActivity"
+      <activity
+            android:name=".AddCategoryPage"
             android:exported="false" />
+
         <activity
             android:name=".LoginPageActivity"
             android:exported="true"
@@ -26,6 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SettingsPageActivity"
+            android:exported="false" />
         <activity
             android:name=".CategoryProductsActivity"
             android:exported="false" />
