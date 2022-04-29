@@ -41,12 +41,23 @@
     <string name="rules_community_guidelines"><![CDATA[Rules & Community Guidelines]]></string>
     <string name="backup">Backup</string>
     <string name="faq">FAQ</string>
+    <string name="english">English</string>
+    <string name="light">Light</string>
     <string-array name="food">
         <item>Categories</item>
         <item>Fast-food</item>
         <item>Desert</item>
     </string-array>
 
+    <string-array name="languages">
+        <item>English</item>
+        <item>française</item>
+        <item>română</item>
+    </string-array>
 
-
+    <string-array name="themes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Default</item>
+    </string-array>
 </resources>

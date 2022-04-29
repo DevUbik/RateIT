@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,6 +57,19 @@ public class SettingsPageActivity extends AppCompatActivity {
                 Toast.makeText(view.getContext(), "Connected Accounts",Toast.LENGTH_LONG).show();
             }
         });
+
+        //dropdown pentru language
+        String[] lg = getResources().getStringArray(R.array.languages);
+        ArrayAdapter<String> arrayAdapterLg = new ArrayAdapter<String>(this,R.layout.dropdown_language,lg);
+        AutoCompleteTextView autoCompleteTextViewLg = findViewById(R.id.autoCompleteTextLanguage);
+        autoCompleteTextViewLg.setAdapter(arrayAdapterLg);
+
+        //dropdown pentru theme
+        String[] th = getResources().getStringArray(R.array.themes);
+        ArrayAdapter<String> arrayAdapterTh = new ArrayAdapter<String>(this,R.layout.dropdown_theme,th);
+        AutoCompleteTextView autoCompleteTextViewTh = findViewById(R.id.autoCompleteTextTheme);
+        autoCompleteTextViewTh.setAdapter(arrayAdapterTh);
+
     }
 
     public void OnImageButtonClick(View v)
