@@ -208,12 +208,14 @@
                 android:backgroundTint="@color/purple_200"
                 android:backgroundTintMode="screen" />
 
-            <TextView
-                android:id="@+id/locationText"
+            <Switch
+                android:id="@+id/locationSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:checked="false"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnLocationSwitchClick"
                 android:paddingStart="20sp"
                 android:paddingTop="10sp"
                 android:text="@string/location"
@@ -231,8 +233,10 @@
                 android:id="@+id/soundSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:checked="true"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnSoundSwitchClick"
                 android:paddingStart="20sp"
                 android:soundEffectsEnabled="true"
                 android:text="@string/sound"
