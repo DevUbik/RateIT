@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentCategory"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,15 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <ImageButton
-            android:id="@+id/imageButton8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
+            android:id="@+id/imgProductCatalog"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
             android:src="@android:drawable/sym_def_app_icon"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.045"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,9 +27,10 @@
             android:id="@+id/categoryNameFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="16dp"
             android:text="TextView"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-            tools:layout_editor_absoluteX="176dp" />
+            app:layout_constraintEnd_toEndOf="@+id/imgProductCatalog"
+            app:layout_constraintStart_toStartOf="@+id/imgProductCatalog"
+            app:layout_constraintTop_toBottomOf="@+id/imgProductCatalog" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

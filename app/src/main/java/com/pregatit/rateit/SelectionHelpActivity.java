@@ -41,13 +41,13 @@ public class SelectionHelpActivity extends AppCompatActivity {
 
         //design patters
 
-        Product dummyData = Singleton.getProductFromJson(produsJson);
+        //Product dummyData = Singleton.getProductFromJson(produsJson);
 
         this.factory = LayoutInflater.from(context);
 
         this.categoryList = (ScrollView) findViewById(R.id.categoryList);
         clearContent();
-        setContent();
+        //setContent();
     }
 
     public void setContent()

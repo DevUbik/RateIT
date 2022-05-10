@@ -9,8 +9,11 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.RatingBar;
 import android.widget.Spinner;
+import android.widget.TextView;
 
+import com.pregatit.rateit.db.entities.Product;
 import com.pregatit.rateit.utils.Singleton;
 
 public class InsertProductActivity extends AppCompatActivity {
@@ -44,6 +47,22 @@ public class InsertProductActivity extends AppCompatActivity {
         {
 
         }
+    }
+
+    public void onSaveNewProduct(View v)
+    {
+        Product newProduct = new Product();
+        TextView name = (TextView) findViewById(R.id.textInputEditText_nameOfTheProduct);
+        newProduct.setName(name.getText().toString());
+        RatingBar overalRating = (RatingBar) findViewById(R.id.ratingBar_overall);
+        newProduct.setRating(overalRating.getRating());
+
+        newProduct.setImage(2131230817);
+
+        String dummyProduct = Singleton.getJsonFromProduct(newProduct);
+        Intent i = new Intent(this, ProductCatalogActivity.class);
+        i.putExtra("newproduct",dummyProduct);
+        startActivity(i);
     }
 
 }

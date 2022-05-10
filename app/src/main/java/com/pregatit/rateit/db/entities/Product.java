@@ -16,6 +16,7 @@ public class Product {
     private String name;
     private float rating;
     private Date update;
+    private int image;
 
     //3 constructori
 
@@ -65,6 +66,14 @@ public class Product {
 
     public void setUpdate(Date update) {
         this.update = update;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
     }
 
     // 5. SQL QUERY

@@ -7,7 +7,7 @@ public class Category {
     //2 variabile
     private int id;
     private String name;
-    //TODO add an image for category
+    private int image;
     private Date update;
 
 
@@ -30,6 +30,14 @@ public class Category {
     }
 
     //4 getters and setters
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
 
     public int getId() {
         return id;

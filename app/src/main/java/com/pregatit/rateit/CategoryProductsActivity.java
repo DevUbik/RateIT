@@ -51,9 +51,9 @@ public class CategoryProductsActivity extends AppCompatActivity {
         String produsJson3 = "{'name':'Fursecuri','rating':3.2,'update':null}";
 
 
-        Product dummyData1 = Singleton.getProductFromJson(produsJson1);
-        Product dummyData2 = Singleton.getProductFromJson(produsJson2);
-        Product dummyData3 = Singleton.getProductFromJson(produsJson3);
+        //Product dummyData1 = Singleton.getProductFromJson(produsJson1);
+        //Product dummyData2 = Singleton.getProductFromJson(produsJson2);
+        //Product dummyData3 = Singleton.getProductFromJson(produsJson3);
 
         this.factory = LayoutInflater.from(context);
 
