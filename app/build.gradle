@@ -41,6 +41,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.4.1'
     implementation 'androidx.navigation:navigation-ui:2.4.1'
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.facebook.android:facebook-login:latest.release'
 
     implementation 'io.github.ParkSangGwon:tedpermission-normal:3.3.0'
 

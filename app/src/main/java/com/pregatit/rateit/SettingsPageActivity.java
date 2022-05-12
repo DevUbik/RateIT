@@ -29,10 +29,10 @@ public class SettingsPageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings_page);
 
         Switch soundSwitch = (Switch) findViewById(R.id.soundSwitch);
-        SharedPreferences shared =this.getSharedPreferences("RateIt", Context.MODE_PRIVATE);
+        SharedPreferences shared = this.getSharedPreferences("RateIt", Context.MODE_PRIVATE);
         soundSwitch.setChecked(shared.getBoolean("valueS",true));
 
-        Switch locationSwitch =(Switch) findViewById(R.id.locationSwitch);
+        Switch locationSwitch = (Switch) findViewById(R.id.locationSwitch);
         SharedPreferences preferences = this.getSharedPreferences("RateIt",Context.MODE_PRIVATE);
         locationSwitch.setChecked(preferences.getBoolean("valueL",false));
 
@@ -76,25 +76,13 @@ public class SettingsPageActivity extends AppCompatActivity {
     {
         Switch soundSwitch = (Switch) findViewById(R.id.soundSwitch);
 
-        SharedPreferences shared =this.getSharedPreferences("RateIt", Context.MODE_PRIVATE);
+        SharedPreferences shared = this.getSharedPreferences("RateIt", Context.MODE_PRIVATE);
 
-        soundSwitch.setChecked(shared.getBoolean("valueS",true));
-        soundSwitch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                SharedPreferences.Editor editor = shared.edit();
-                if(soundSwitch.isChecked())
-                {
-                    editor.putBoolean("valueS",true);
-                    editor.apply();
-                    soundSwitch.setChecked(true);
-                }else {
-                    editor.putBoolean("valueS",false);
-                    editor.apply();
-                    soundSwitch.setChecked(false);
-                }
-            }
-        });
+        //soundSwitch.setChecked(shared.getBoolean("valueS",true));
+
+        SharedPreferences.Editor editor = shared.edit();
+        editor.putBoolean("valueS",soundSwitch.isChecked());
+        editor.apply();
     }
 
     public void getLocation()
