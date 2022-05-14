@@ -72,6 +72,19 @@ public class SettingsPageActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void OnChangePasswordClick(View v)
+    {
+        Intent i = new Intent(this, CreateAccountActivity.class);
+
+        i.putExtra("Sender",true);
+        i.putExtra("ValueP","New password");
+        i.putExtra("ValuePT","enter new password");
+        i.putExtra("ValueB","Save changes");
+
+        startActivity(i);
+
+    }
+
     public void OnSoundSwitchClick(View v)
     {
         Switch soundSwitch = (Switch) findViewById(R.id.soundSwitch);
@@ -115,24 +128,19 @@ public class SettingsPageActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = shared.edit();
         location.setChecked(shared.getBoolean("valueL",true));
         getLocation();
-        location.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(ActivityCompat.checkSelfPermission(SettingsPageActivity.this,Manifest.permission.ACCESS_FINE_LOCATION)== PackageManager.PERMISSION_GRANTED)
-                {
-                    editor.putBoolean("valueL",true);
-                    editor.apply();
-                    location.setChecked(true);
-                }
-                else
-                {
-                    ActivityCompat.requestPermissions(SettingsPageActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 23);
-                    editor.putBoolean("valueL",false);
-                    editor.apply();
-                    location.setChecked(false);
-                }
-            }
-        });
+        if(ActivityCompat.checkSelfPermission(SettingsPageActivity.this,Manifest.permission.ACCESS_FINE_LOCATION)== PackageManager.PERMISSION_GRANTED)
+        {
+            editor.putBoolean("valueL",true);
+            editor.apply();
+            location.setChecked(true);
+        }
+        else
+        {
+            ActivityCompat.requestPermissions(SettingsPageActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 23);
+            editor.putBoolean("valueL",false);
+            editor.apply();
+            location.setChecked(false);
+        }
 
     }
 

@@ -83,4 +83,12 @@
     <string name="profile">\@string/profile</string>
     <string name="bakery">\@string/bakery</string>
     <string name="meals">\@string/meals</string>
+    <string name="email">Email</string>
+    <string name="email_adress">email adress</string>
+    <string name="password">password</string>
+    <string name="Password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="repeat_the_password">repeat the password</string>
+    <string name="i_agree_with_the_terms_and_conditions">I agree with the terms and conditions</string>
+    <string name="i_want_this_account_to_be_public">I want this account to be public</string>
 </resources>
