@@ -22,17 +22,18 @@
             android:id="@+id/settingsText"
             android:layout_width="84dp"
             android:layout_height="37dp"
+            android:paddingTop="3dp"
             android:text="@string/settings"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/settingsBackButton"
+            app:layout_constraintStart_toEndOf="@+id/edit_profileBackButton"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/settingsBackButton"
+            android:id="@+id/edit_profileBackButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
@@ -103,6 +104,7 @@
                 android:layout_height="48dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnEditProfileClick"
                 android:paddingStart="20sp"
                 android:paddingTop="10sp"
                 android:text="@string/edit_profile"
@@ -141,6 +143,7 @@
                 android:layout_height="48dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnChangePasswordClick"
                 android:paddingStart="20sp"
                 android:paddingTop="10sp"
                 android:text="@string/change_password"
@@ -154,12 +157,13 @@
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider" />
 
-            <TextView
-                android:id="@+id/notificationsText"
+            <Switch
+                android:id="@+id/notificationsSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnNotificationsSwitchClick"
                 android:paddingStart="20sp"
                 android:paddingTop="10sp"
                 android:text="@string/notifications"
@@ -385,6 +389,7 @@
                 android:layout_height="48dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="OnDeleteAccountClick"
                 android:paddingStart="20sp"
                 android:paddingTop="10sp"
                 android:text="@string/delete_account"

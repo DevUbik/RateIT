@@ -4,29 +4,74 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.2595" />
+        <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_add_category_page.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.16374519025224454" />
+        <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.2232387923147301" />
         <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog2.xml" value="0.264" />
+        <entry key="..\:/Users/Claudia/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog_bck.xml" value="0.264" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.5" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_ajutor_selectie_bck.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main.xml" value="0.4765625" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog2.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_product_catalog_bck.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Vali/Desktop/Practica/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_create_account.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_create_account_bck.xml" value="0.21205643437366395" />
-        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.33" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.15433946130825138" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.21333903377511756" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog2.xml" value="0.21205643437366395" />
-        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog_bck.xml" value="0.15433946130825138" />
-        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.21333903377511756" />
-        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/category_spinner.xml" value="0.14279606669516887" />
-        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.30854700854700856" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/adroman/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.14279606669516887" />
+        <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.25" />
         <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_category_page.xml" value="0.25" />
         <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_category_products.xml" value="0.25" />
         <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.2359375" />
+        <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.3451086956521739" />
         <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.22" />
+        <entry key="..\:/Users/dragu/StudioProjects/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/drawable/ic_rateit_background.xml" value="0.366" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_add_category_page.xml" value="0.3292572463768116" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_ajutor_selectie.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_main_menu.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_product_catalog_bck.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_profile_page.xml" value="0.33211678832116787" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_selection_help.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_selection_help_bck.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_settings_page.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/category_spinner.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/dropdown_language.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_insert_product.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/layout/text.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/irina/AndroidStudioProjects/RateIT/app/src/main/res/mipmap-anydpi-v26/ic_rateit.xml" value="0.1945" />
+        <entry key="..\:/Users/parko/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_category_products_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/parko/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_insert_product_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/parko/AndroidStudioProjects/RateIT/app/src/main/res/layout/activity_login_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/parko/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_category_partial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/parko/AndroidStudioProjects/RateIT/app/src/main/res/layout/fragment_insert_a_new_product.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
